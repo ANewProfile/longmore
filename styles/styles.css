@@ -15,10 +15,10 @@
     background-color: aliceblue;
 }
 
-.whenyouwantashadow {
+.txt-shadow {
     text-shadow: 4px 3px 3px black;
 }
 
-.whenyouwantaboxshadow {
+.box-shadow {
     box-shadow: 6px 4px 4px black;
 }
