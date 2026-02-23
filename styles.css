@@ -28,7 +28,7 @@ main {
 }
 
 .box-shadow {
-    box-shadow: 6px 4px 4px black;
+    box-shadow: 6px 4px 2px black;
 }
 
 .bg-black {
@@ -93,7 +93,7 @@ main {
 .nav-button:hover {
     background-color: mediumseagreen;
     color: white;
-    box-shadow: 6px 4px 4px;
+    box-shadow: 6px 4px 2px;
 }
 
 /*.gap {
