@@ -94,6 +94,9 @@ main {
     background-color: mediumseagreen;
     color: white;
 }
+.box-shadow:hover {
+    box-shadow: 6px 4px 2px black;
+}
 
 /*.gap {
     gap: 5em;
