@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
 .font {
     font-family: "Trebuchet Ms";
     font-size: 25px;
@@ -22,3 +30,97 @@
 .box-shadow {
     box-shadow: 6px 4px 4px black;
 }
+
+.bg-black {
+    background-color: black;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+.navbar {
+    background-color: aliceblue;
+    height: 5em;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.nav-button {
+    background-color: aliceblue;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.nav-button:hover {
+    background-color: gray;
+}
+*/
+
+.navbar {
+    background-color: aliceblue;
+    height: 5em;
+    display: flex;
+    align-items: stretch; /* important */
+    border-bottom: 1px solid black;
+}
+
+/* Make the ul fill the navbar */
+.navbar ul {
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Make each li fill the navbar */
+.navbar li {
+    list-style: none;
+    display: flex;
+    /* height: 100%; */
+    flex: 1 1 0;
+}
+
+/* Now the button can actually fill the space */
+.nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 50px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.nav-button:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+/*.gap {
+    gap: 5em;
+}*/
