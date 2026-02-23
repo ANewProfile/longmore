@@ -93,7 +93,6 @@ main {
 .nav-button:hover {
     background-color: mediumseagreen;
     color: white;
-    box-shadow: 6px 4px 2px;
 }
 
 /*.gap {
