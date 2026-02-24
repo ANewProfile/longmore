@@ -27,8 +27,8 @@ main {
     text-shadow: 4px 3px 3px black;
 }
 
-.box-shadow {
-    box-shadow: 12px 8px 6px black;
+.box-shadow:hover {
+    box-shadow: -5px 5px 6px black;
 }
 
 .bg-black {
