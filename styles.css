@@ -50,7 +50,7 @@ main {
 }
 
 .navbar {
-    background-color: slategray;
+    background-color: #382400;
     height: 8em;
     display: flex;
     align-items: stretch;
@@ -87,7 +87,7 @@ main {
 }
 
 .nav-button:hover {
-    background-color: mediumseagreen;
+    background-color: darkslategray;
     color: white;
     box-shadow: -5px 5px 6px black;
 }
