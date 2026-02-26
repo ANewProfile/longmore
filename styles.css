@@ -51,7 +51,7 @@ main {
 
 .navbar {
     background-color: aliceblue;
-    height: 5em;
+    height: 8em;
     display: flex;
     align-items: stretch;
     border-bottom: 1px solid black;
@@ -89,4 +89,26 @@ main {
 .nav-button:hover {
     background-color: mediumseagreen;
     color: white;
+}
+
+.nav-logo-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 50px;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.nav-logo {
+    width: fit;
+    height: 100%;
+    margin-right: 10px;
 }
