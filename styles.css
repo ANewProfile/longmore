@@ -84,6 +84,7 @@ main {
     cursor: pointer;
     flex: 1;
     transition: 0.3s;
+    border: 2px slategray;
 }
 
 .nav-button:hover {
