@@ -80,7 +80,7 @@ main {
     background-color: aliceblue;
     color: black;
     border: none;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
     flex: 1;
     transition: 0.3s;
