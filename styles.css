@@ -84,12 +84,12 @@ main {
     cursor: pointer;
     flex: 1;
     transition: 0.3s;
-    border: 2px slategray;
 }
 
 .nav-button:hover {
     background-color: mediumseagreen;
     color: white;
+    box-shadow: -5px 5px 6px black;
 }
 
 .nav-logo-button {
