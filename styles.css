@@ -50,7 +50,7 @@ main {
 }
 
 .navbar {
-    background-color: aliceblue;
+    background-color: slategray;
     height: 8em;
     display: flex;
     align-items: stretch;
