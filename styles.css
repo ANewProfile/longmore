@@ -11,6 +11,13 @@ main {
     font-size: 25px;
 }
 
+@font-face {
+    font-family: "Boneless";
+    src: url(".assets/boneless.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .text-center {
     text-align: center;
 }
